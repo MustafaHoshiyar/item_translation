@@ -5,6 +5,12 @@ app_description = "Translate Item Name to ARabic in ERPNEXT"
 app_email = "mustafa.h@smbsolution.in"
 app_license = "mit"
 
+# Fixtures for custom field and client script
+fixtures = [
+    {"dt": "Custom Field", "filters": [["name", "in", ["Item-arabic_name"]]]},
+    {"dt": "Client Script", "filters": [["name", "in", ["Item Translation Script"]]]}
+]
+
 # Apps
 # ------------------
 

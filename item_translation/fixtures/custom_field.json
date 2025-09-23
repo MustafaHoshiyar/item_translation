@@ -1,6 +1,7 @@
 [
   {
     "doctype": "Custom Field",
+    "name": "Item-item_name_arabic",
     "dt": "Item",
     "fieldname": "item_name_arabic",
     "fieldtype": "Data",
@@ -10,6 +11,6 @@
     "reqd": 0,
     "unique": 0,
     "translatable": 0,
-    "module": "Item Translation"
+    "module": "Stock"
   }
 ]

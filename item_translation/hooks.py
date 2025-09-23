@@ -7,8 +7,7 @@ app_license = "mit"
 
 # Fixtures for custom field and client script
 fixtures = [
-    {"doctype": "Custom Field", "filters": [["name", "in", ["Item-item_name_arabic"]]]},
-    {"doctype": "Client Script", "filters": [["name", "in", ["button translation script"]]]}
+    {"doctype": "Custom Field", "filters": [["name", "in", ["Item-item_name_arabic"]]]}
 ]
 
 # Apps
@@ -49,7 +48,7 @@ fixtures = [
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Item" : "public/js/translate_item.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}

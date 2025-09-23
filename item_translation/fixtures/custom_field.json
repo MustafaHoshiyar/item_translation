@@ -1,0 +1,15 @@
+[
+  {
+    "doctype": "Custom Field",
+    "dt": "Item",
+    "fieldname": "item_name_arabic",
+    "fieldtype": "Data",
+    "label": "Item Name Arabic",
+    "insert_after": "item_name",
+    "hidden": 0,
+    "reqd": 0,
+    "unique": 0,
+    "translatable": 0,
+    "module": null
+  }
+]

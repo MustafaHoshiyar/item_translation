@@ -7,8 +7,8 @@ app_license = "mit"
 
 # Fixtures for custom field and client script
 fixtures = [
-    {"dt": "Custom Field", "filters": [["name", "in", ["Item-arabic_name"]]]},
-    {"dt": "Client Script", "filters": [["name", "in", ["Item Translation Script"]]]}
+    {"doctype": "Custom Field", "filters": [["name", "in", ["Item-item_name_arabic"]]]},
+    {"doctype": "Client Script", "filters": [["name", "in", ["button translation script"]]]}
 ]
 
 # Apps

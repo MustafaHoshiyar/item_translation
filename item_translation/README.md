@@ -12,7 +12,7 @@ This ERPNext app adds a **Translate button** to the **Item** DocType that automa
 - Shows a **loader** while processing translation.
 - Fully modular and installable on any ERPNext instance.
 - Fixtures included for:
-  - `arabic_name` custom field
+  - `item_name_arabic` custom field
   - Client Script for the Translate button
 
 ---

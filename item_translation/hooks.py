@@ -1,7 +1,7 @@
 app_name = "item_translation"
 app_title = "Item Translation"
 app_publisher = "Mustafa.H"
-app_description = "Translate Item Name to ARabic in ERPNEXT"
+app_description = "Translate Item Name to Arabic in ERPNEXT"
 app_email = "mustafa.h@smbsolution.in"
 app_license = "mit"
 
@@ -13,7 +13,7 @@ fixtures = [
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
